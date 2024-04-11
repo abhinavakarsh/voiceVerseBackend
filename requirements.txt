@@ -1,4 +1,3 @@
-git+https://github.com/openai/whisper.git 
 Flask
 whisper
 joblib
