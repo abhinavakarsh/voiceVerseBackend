@@ -5,7 +5,6 @@ numpy
 Flask
 altair
 whisper
-os
 audiorecorder
 joblib
 scikit-learn
