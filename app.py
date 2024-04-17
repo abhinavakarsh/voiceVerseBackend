@@ -73,5 +73,11 @@ def handle_request():
     except Exception as e:
         return jsonify({"error is": str(e)}), 500
 
+
+@app.route('/')
+def home():
+    return "hello flask"
+
+
 if __name__ == '__main__':
     app.run(debug=True)
